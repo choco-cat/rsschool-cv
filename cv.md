@@ -27,8 +27,8 @@ while ($row = $this->db->sql_fetchrow($result))
 $this->db->sql_freeresult($result);		
 ```
 ### Education
-Institute of Information Technologies BSUIR, IIT BSUIR 
-Higher pedagogical education (Mathematics, Computer science)
+2014 - Institute of Information Technologies BSUIR, IIT BSUIR 
+2004 - Higher pedagogical education (Mathematics, Computer science)
 
 ### English
 A1 Beginner и Elementary
