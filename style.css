@@ -1,0 +1,30 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #eee;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+.photo {
+  width: 180px;
+  height: 180px;
+  background-image: url("avatar.jpg");
+  background-size: 180px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 0.5em;
+}
+
+.info {
+  padding-top: 1em;
+  clear: both;
+}
