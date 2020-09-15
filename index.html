@@ -25,7 +25,7 @@
      </div>
      <div class="info">
        <p class="head">Code samples</p>
-       <p><em>$sql = 'SELECT * FROM '. FORUMS_TABLE .' WHERE parent_id > 0 ORDER BY forum_name COLLATE utf8_unicode_ci';
+       <p><pre><code>$sql = 'SELECT * FROM '. FORUMS_TABLE .' WHERE parent_id > 0 ORDER BY forum_name COLLATE utf8_unicode_ci';
 $result = $this->db->sql_query($sql);
 while ($row = $this->db->sql_fetchrow($result))
 {
@@ -37,7 +37,7 @@ while ($row = $this->db->sql_fetchrow($result))
 		));
 	}
 }
-$this->db->sql_freeresult($result);		</em></p>
+$this->db->sql_freeresult($result);		</pre></code></p>
      </div>
      <div class="info">
        <p class="head">Education</p>
