@@ -11,12 +11,12 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .photo {
   width: 180px;
-  height: 180px;
+  height: 230px;
   background-image: url("avatar.jpg");
   background-size: 180px;
   float: left;
@@ -27,4 +27,22 @@ p {
 .info {
   padding-top: 1em;
   clear: both;
+}
+
+.head {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+section {
+  width: 900px;
+  min-height: 200px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: "Century Gothic";
+  background: #ffffff;
+  -webkit-box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.6);
+  box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.6);
+  padding: 50px;
 }
