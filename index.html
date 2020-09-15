@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Natalia Panfilenka CV</title>
+</head>
+<body>
+ <main>
+   <h1>Natalia Panfilenka</h1>
+   <section> 
+     <div class="photo"></div>
+     <div class="info">
+       <p class="head">Contacts</p>
+       <p>email: <a href="mailto:choco-cat@mail.ru">choco-cat@mail.ru</a></p>
+       <p>skype: choco-cat3</p>
+     </div>
+     <div class="info">
+       <p class="head">Summary</p>
+       <p>I will fill in later.</p>
+     </div>
+     <div class="info">
+       <p class="head">Skills</p>
+       <p>JS, PHP, SQL</p>
+     </div>
+     <div class="info">
+       <p class="head">Code samples</p>
+       <p><em>$sql = 'SELECT * FROM '. FORUMS_TABLE .' WHERE parent_id > 0 ORDER BY forum_name COLLATE utf8_unicode_ci';
+$result = $this->db->sql_query($sql);
+while ($row = $this->db->sql_fetchrow($result))
+{
+	if($this->auth->acl_get('f_read', $row['forum_id']))
+	{
+		$this->template->assign_block_vars('allcategories', array(
+		'U_LINK'	=> append_sid("{$phpbb_root_path}viewforum.$phpEx", 'f='.$row['forum_id']) ,
+		'TITLE'		=> $row['forum_name'],
+		));
+	}
+}
+$this->db->sql_freeresult($result);		</em></p>
+     </div>
+     <div class="info">
+       <p class="head">Education</p>
+       <p>2014 - Institute of Information Technologies BSUIR, IIT BSUIR</p>
+       <p>2004 - Higher pedagogical education (Mathematics, Computer science)</p>
+     </div>
+     <div class="info">
+       <p class="head">English</p>
+       <p>A1 Beginner и Elementary</p>
+     </div>
+   </section> 
+  </main>
+</body>
+</html>
