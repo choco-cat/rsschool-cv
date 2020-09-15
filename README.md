@@ -1,1 +1,1 @@
-# rsschool-cv1
+https://choco-cat.github.io/rsschool-cv/
